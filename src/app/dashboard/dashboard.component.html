@@ -1,0 +1,9 @@
+<div class="dashboard">
+  <div class="dashboard-container">Dashboard</div>
+  <div (click)="likePage()" class="heart">
+    <svg class="icon icon-heart" [ngClass]="{'icon-heart--red': isLiked}">
+      <use [attr.xlink:href]="'assets/icons.svg#icon-heart'"></use>
+    </svg>
+    <p class="p">ADD THIS PAGE TO FAVORITES</p>
+  </div>
+</div>

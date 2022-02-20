@@ -1,0 +1,53 @@
+<div class="container-sidebar">
+  <div class="sidebar" [ngClass]="{'sidebar--show': showMe}">
+    <img src="assets/bw.png" alt="photo" class="header-logo">
+    <div class="sidebar_item">
+      <img src="assets/1.png" alt="photo">
+      <span *ngIf="showMe">Dashboard</span>
+      <button class="nav-btn" (click)="toogleTag()">
+        <svg class="icon" id="btn">
+          <use [attr.xlink:href]="'assets/icons.svg#icon-arrow_forward_ios'"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/2.png" alt="photo">
+      <span *ngIf="showMe">Keys</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/3.png" alt="photo">
+      <span *ngIf="showMe">Profile</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/4.png" alt="photo">
+      <span *ngIf="showMe">Notifications</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/5.png" alt="photo">
+      <span *ngIf="showMe">Graphs</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/6.png" alt="photo">
+      <span *ngIf="showMe">Transfers</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/Settings.png" alt="photo">
+      <span *ngIf="showMe">Configurations</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/7.png" alt="photo">
+      <span *ngIf="showMe">Likes</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/8.png" alt="photo">
+      <span *ngIf="showMe">History</span>
+    </div>
+    <div class="sidebar_item">
+      <img src="assets/9.png" alt="photo">
+      <span *ngIf="showMe">Watchlist</span>
+    </div>
+  </div>
+
+
+</div>
+

@@ -1,0 +1,36 @@
+.dashboard {
+  display: flex;
+}
+
+.dashboard-container {
+  border: none;
+  background-color: #ececec;
+  height: 50px;
+  flex: 4;
+  color: #878686;
+  font-size: 18px;
+  padding: 16px 20px;
+}
+
+.heart {
+  background-color: #c0bfbf;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  flex: 1;
+  cursor: pointer;
+}
+.icon-heart {
+  margin-top: 15px;
+  color: #878686;
+
+  &.icon-heart--red {
+    color: red;
+  }
+}
+
+.p {
+  margin-top: 15px;
+  color: #878686;
+  font-family: Arial, Helvetica, sans-serif;
+}
